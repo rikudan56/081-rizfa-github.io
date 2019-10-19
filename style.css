@@ -1,0 +1,163 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.header {	
+  
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background-image: url(img/dark.jpg);
+  background-size: cover;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  margin: 0 auto;
+}
+
+body{
+	background-color: #000000;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: fixed; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 300px;
+  background-color: #4CAF50;
+}
+
+#skill {
+  top: 360px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 420px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 480px;
+  background-color: #555 /* Light Black */
+}
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.translate {width: 90%; background-color: #4CAF50;} /* Green */
+.Photo {width: 90%; background-color: #2196F3;} /* Blue */
+.Design {width: 75%; background-color: #f44336;} /* Red */
+.Web {width: 40%; background-color: #808080;} /* Dark Grey */
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color:#202020;
+  padding: 20px; /* Some padding */
+  color: white;
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: #404040;
+  color: white;
+  padding: 20px; /* Some padding */
+}
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, {
+  opacity: 0.7;
+}
