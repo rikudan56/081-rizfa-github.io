@@ -4,8 +4,8 @@ html{
 
 .header {	
   
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
+  padding: 80px;
+  text-align: center;
   background-image: url(img/dark.jpg);
   background-size: cover;
   color: white;
@@ -24,24 +24,28 @@ body{
   font-size: 40px;
 }
 
-/* Style the links inside the sidenav */
+
 #mySidenav a {
-  position: fixed; /* Position them relative to the browser window */
-  left: -80px; /* Position them outside of the screen */
-  transition: 0.3s; /* Add transition on hover */
-  padding: 15px; /* 15px padding */
-  width: 100px; /* Set a specific width */
-  text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
-  color: white; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
 
 #mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
+  left: 0; 
 }
 
-/* The about link: 20px from the top with a green background */
+
+#rumah {
+  top: 240px;
+  background-color: #9900cc;
+}
 #about {
   top: 300px;
   background-color: #4CAF50;
@@ -49,80 +53,63 @@ body{
 
 #skill {
   top: 360px;
-  background-color: #2196F3; /* Blue */
+  background-color: #2196F3;
 }
 
 #projects {
   top: 420px;
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
 }
 
 #contact {
   top: 480px;
-  background-color: #555 /* Light Black */
+  background-color: #555 
 }
-/* Ensure proper sizing */
+
 * {
   box-sizing: border-box;
 }
 
-/* Column container */
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%;
+  background-color: #ddd;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-
-.translate {width: 90%; background-color: #4CAF50;} /* Green */
-.Photo {width: 90%; background-color: #2196F3;} /* Blue */
-.Design {width: 75%; background-color: #f44336;} /* Red */
-.Web {width: 40%; background-color: #808080;} /* Dark Grey */
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%; /* Set the width of the sidebar */
-  background-color:#202020;
-  padding: 20px; /* Some padding */
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
 }
 
-/* Main column */
+.translate {width: 90%; background-color: #4CAF50;}
+.Photo {width: 90%; background-color: #2196F3;} 
+.Design {width: 75%; background-color: #f44336;}
+.Web {width: 40%; background-color: #808080;} 
+
+.side {
+  flex: 30%;
+  background-color:#202020;
+  padding: 20px;
+  color: white;
+}
+
 .main {
-  flex: 70%; /* Set the width of the main content */
+  flex: 70%;
   background-color: #404040;
   color: white;
-  padding: 20px; /* Some padding */
+  padding: 20px;
 }
 
 .footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
-}
-
-.fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
   text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+  background: #ddd;
 }
 
 .card {
@@ -139,25 +126,7 @@ body{
   font-size: 18px;
 }
 
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, {
-  opacity: 0.7;
+.gambar{
+  width: 20px;
+  height: 20px;
 }
